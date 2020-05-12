@@ -19,7 +19,7 @@
 	<div class="wrapper">
 		<div id="clock"></div>
 		<div class="titles">Linea General San Martin</div>
-		<div id="lsm" class="buttons blue" onclick="horarios('vdpretsch', 'Retiro', vdpret)">Villa del Parque</div>
+		<div id="lsm" class="buttons blue" onclick="getSchedules('vdpretsch', 'Retiro', vdpret)">Villa del Parque</div>
 
 		<div class="schedule" id="vdpretsch">
 			<div id="vdpretsch1" class="proximo"></div>
@@ -31,7 +31,7 @@
 			
 		</div>
 
-		<div id="lsm" class="buttons blue" onclick="horarios('retvdpsch', 'Villa del Parque', retvdp)">Retiro</div>
+		<div id="lsm" class="buttons blue" onclick="getSchedules('retvdpsch', 'Villa del Parque', retvdp)">Retiro</div>
 			
 			<div class="schedule" id="retvdpsch">
 			<div id="retvdpsch1" class="proximo"></div>
@@ -41,7 +41,7 @@
 		</div>
 
 		<div class="titles">Linea General Belgrano</div>
-		<div id="lgb" class="buttons red" onclick="horarios('curetsch', 'Retiro', curet)">Ciudad Universitaria</div>
+		<div id="lgb" class="buttons red" onclick="getSchedules('curetsch', 'Retiro', curet)">Ciudad Universitaria</div>
 			
 			<div class="schedule" id="curetsch">
 			<div id="curetsch1" class="proximo"></div>
@@ -49,7 +49,7 @@
 			<div id="curetsch3" class="proximo"></div>
 			<div id="curetsch4" class="tiempo"></div>
 		</div>
-		<div id="lgb" class="buttons red" onclick="horarios('retcusch', 'C. Universitaria', retcu)">Retiro</div>
+		<div id="lgb" class="buttons red" onclick="getSchedules('retcusch', 'C. Universitaria', retcu)">Retiro</div>
 			
 			<div class="schedule" id="retcusch">
 			<div id="retcusch1" class="proximo"></div>
